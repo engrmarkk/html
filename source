@@ -95509,6 +95509,9 @@ import "https://example.com/foo/../module2.mjs";</code></pre>
     <p>then:
 
     <ol>
+     <li><p>Set this <span>event loop</span>'s <span>last idle period start time</span> to the
+     <span>current high resolution time</span>.<p></li>
+
      <li>
       <p>Let <var>computeDeadline</var> be the following steps:</p>
 
